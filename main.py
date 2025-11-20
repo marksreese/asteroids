@@ -17,7 +17,7 @@ def main():
     drawable = pygame.sprite.Group()
     Player.containers = (updatable, drawable)
     player =  Player(SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2)
-    
+
     while True:
         log_state()
         for event in pygame.event.get():
@@ -27,8 +27,9 @@ def main():
         dt = frame_time / 1000.0
         screen.fill("black")
     
-        player.update(dt)
-        player.draw(screen)
+        updatable.update(dt)
+        for thing in drawable:
+            thing.draw(screen)
         pygame.display.flip()
 
 
