@@ -14,3 +14,10 @@ class Asteroid(CircleShape):
             self.radius,
             LINE_WIDTH
         )
+
+    def update(self, dt):
+        unit_vector = pygame.Vector2(0, 1)
+        asteroid_vector = unit_vector * self.velocity * dt
+        self.position += asteroid_vector
+
+    
