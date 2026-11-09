@@ -2,15 +2,15 @@ This is an asteroids game written in Python with pygame, generating asteroids at
 
 To run the game, clone the repo and make sure the following are installed:
 
--Python (https://www.python.org/downloads/ or run ```sudo apt install python3 python-is-python3``` in a bash terminal)
--Pip (check in a bash terminal with ```pip --version``` - it should be included in a Python installation)
--Pygame (install from a bash terminal with ```pip install pygame```)
+- Python (https://www.python.org/downloads/ or run ```sudo apt install python3 python-is-python3``` in a bash terminal)
+- Pip (check in a bash terminal with ```pip --version``` - it should be included in a Python installation)
+- Pygame (install from a bash terminal with ```pip install pygame```)
 
-Run the game from the terminal with ```python main.py```
+__Run the game from the terminal with ```python main.py```__
 
-Controls:
-Forward: W
-Backward: S
-Left: A
-Right: D
-Shoot: Space
+*Controls:*
+* Forward: W
+* Backward: S
+* Left: A
+* Right: D
+* Shoot: Space
