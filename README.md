@@ -14,3 +14,6 @@ __Run the game from the terminal with ```python main.py```__
 * Left: A
 * Right: D
 * Shoot: Space
+
+
+<img width="1270" height="718" alt="image" src="https://github.com/user-attachments/assets/7f6a581b-b9c8-4b17-baf7-89f38311b140" />
